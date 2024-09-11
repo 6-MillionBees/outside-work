@@ -12,8 +12,8 @@ while True:
     print('do you agree?')
     check1 = input()
 
-    if check1 == 'no': # I have absolutely no clue if this works or not bc I haven't been able to bug-test it
-        print(reasons)
+    if check1 == 'no': # edit: It works! when it gets an input that isn't yes or no then it goes back to the beginning 
+        print(reasons) # but I would like it to go back to the last question
         print('please say yes')
         check2 = input()
 
