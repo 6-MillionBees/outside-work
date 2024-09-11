@@ -23,7 +23,8 @@ while True:
             check3 = input()
                 
             if check3 == 'no':
-                print(':(')
+                print(':( ok')
+                break
             elif check3 == 'yes':
                 print('THANK YOU SO MUCH')
                 break
