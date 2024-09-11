@@ -9,34 +9,33 @@ extra_reasons = 'I am caught up with all of my work and I want it for purely sch
 
 while True:
     print(please)
-    print('do you agree?')
+    print('Do I have your permission?')
     check1 = input()
 
-    if check1 == 'no': # edit: It works! when it gets an input that isn't yes or no then it goes back to the beginning 
-        print(reasons) # but I would like it to go back to the last question
-        print('please say yes')
+    if check1 == 'no': # edit: It works! When it gets an input that isn't yes or no then it goes back to the beginning 
+        print(reasons) # But I would like it to go back to the last question (I have no idea how to do that)
+        print('Please say yes')
         check2 = input()
 
         if check2 == 'no':
             print(extra_reasons)
-            print('please :(')
+            print('Please :(')
             check3 = input()
-
+                
             if check3 == 'no':
                 print(':(')
-                break
             elif check3 == 'yes':
                 print('THANK YOU SO MUCH')
                 break
             else:
-                print('yes or no')
+                print('Yes or no')
         elif check2 == 'yes':
-            print('thank you')
+            print('Thank you')
             break
         else:
-            print('yes or no')
+            print('Yes or no')
     elif check1 == 'yes':
-        print('thank you')
+        print('Thank you')
         break
     else:
-        print('yes or no')
+        print('Yes or no')
