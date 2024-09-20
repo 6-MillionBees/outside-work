@@ -7,7 +7,8 @@ import string
 
 superscript_map = { # This whole thing is because I want the powers and square roots to be in superscript
     "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵", "6": "⁶",
-    "7": "⁷", "8": "⁸", "9": "⁹"} # I literally just stole this from a guy on stack overflow
+    "7": "⁷", "8": "⁸", "9": "⁹"
+    } # I literally just stole this from a guy on stack overflow
 
 trans = str.maketrans(
     ''.join(superscript_map.keys()),
