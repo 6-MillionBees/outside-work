@@ -5,9 +5,8 @@
 please = 'I would really like to have python installed on my computer for CTC.'
 reasons = 'Without python I cannot debug/run any code using visual studio which would make it impossible to do check my work.'
 extra_reasons = 'I am caught up with all of my work and I want it for purely school related reasons.'
-# I don't have Python installed on my school computer and I am not able to install it myself because I need permission
 
-while True:
+while True: # I got python on my school computer! :D
     print(please)
     print('Do I have your permission?')
     check1 = input()
