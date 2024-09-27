@@ -15,13 +15,13 @@ trans = str.maketrans(
 
 main = input('\nput 3 numbers in a sequence THEY MUST BE SEPARATED WITH A SPACE:\n\n')
 
-listmain = main.split() # this whole thing makes the variable main a functioning tuple
+listmain = main.split() # This whole thing makes main a functioning tuple
 tuplemain = tuple(listmain) # I also stole this from a guy on stack overflow
 
 tuple0 = float(tuplemain[0])
 tuple1 = float(tuplemain[1])
 tuple2 = float(tuplemain[2])
-num3c1 = tuple1 - tuple0 # this may look complicated but it's just defining variables
+num3c1 = tuple1 - tuple0 # This part may look complicated but it's just defining variables
 num3c2 = tuple2 - tuple1 # The reason there's two of each is for confirming that whether the sequence is using addition or multiplication
 num3c3 = tuple1 / tuple0
 num3c4 = tuple2 / tuple1
