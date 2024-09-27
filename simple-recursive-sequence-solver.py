@@ -48,7 +48,7 @@ while exponent_num2 > 1: # this is for square roots
     root += 1 
 
 if num3c1 == num3c2: # This is where the output is decided and finally printed
-    print(f'\nUn = Un-1 + ({num3c1})\n')
+    print(f'\nUn = Un-1 (+{num3c1})\n')
 elif num3c3 == num3c4:
     print(f'\nUn = Un-1 (*{num3c3})\n')
 elif exponent_num == 1:
@@ -56,8 +56,8 @@ elif exponent_num == 1:
 elif exponent_num2 == 1:
     print(f'\nUn = ({str(root).translate(trans)}√)Un-1\n')
 elif is_shifted_plus:
-    print(f'Un = ({rounded_dif1})Un(+{rounded_dif2})')
+    print(f'Un = ({rounded_dif1})Un(+{rounded_dif2})\n')
 elif is_shifted_minus:
-    print(f'Un = ({rounded_dif1})Un(-{rounded_dif2})')
+    print(f'Un = ({rounded_dif1})Un(-{rounded_dif2})\n')
 else:
     print('\nyou did not math correctly\n')
