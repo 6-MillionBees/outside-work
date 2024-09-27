@@ -1,0 +1,31 @@
+
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "editor.semanticHighlighting.enabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#8a8a8a",
+        "numbers": "#fd91eb",
+        "variables": "#c8e0ff",
+        "strings": "#5d9b5d",
+        "functions": "#e4a951",
+        "keywords": "#ce8264",
+        "types": "#bd5c3e",
+        },
+    "editor.semanticTokenColorCustomizations": {
+    },
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#240a0a",
+        "editor.selectionForeground": "#ffffff",
+        "editorGroup.dropBackground": "#466580",
+        "foreground": "#e6e6e6",
+        "editorWhitespace.foreground": "#4b443a"
+    }
+}
