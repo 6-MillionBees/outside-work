@@ -12,11 +12,15 @@
     "python.testing.unittestEnabled": true,
     
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#9e9dcc47",
+        "editor.selectionBackground": "#ffa95947",
         "editor.selectionForeground": "#ffffff",
         "editorGroup.dropBackground": "#4665806e",
         "foreground": "#e6e6e6",
-        "editorWhitespace.foreground": "#4b443a"
+        "editorWhitespace.foreground": "#4d4131",
+        "activityBar.activeBackground": "#8b5b38",
+        "activityBar.activeBorder": "#ffffff",
+        "tab.activeBackground": "#1e1e1e",
+        "editorCursor.foreground": "#ff9436"
     },
 
     "editor.tokenColorCustomizations": {
@@ -36,10 +40,9 @@
             "rules": {
                 "method": "#e9ba72",
                 "module": "#ff5757",
-                "variable": "#7ea8de",
+                "variable": "#a1b6d2",
                 "builtinConstant": "#be31b2",
-                "class": "#c5c944",
-                "bracket": "#ff0000"
+                "class": "#e6c449",
             }
         }
     }
