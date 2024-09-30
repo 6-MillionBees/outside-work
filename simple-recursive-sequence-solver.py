@@ -23,14 +23,16 @@ tuple1 = float(tuplemain[1])
 tuple2 = float(tuplemain[2])
 num3c1 = tuple1 - tuple0
 num3c2 = tuple2 - tuple1 # The reason there's two of each is for confirming that whether the sequence is using addition or multiplication
-num3c3 = tuple1 / tuple0
-num3c4 = tuple2 / tuple1
-dif1 = num3c2 / num3c1
-dif2 = dif1*tuple0 - tuple1
-rounded_dif1 = float(f'{dif1:.4f}') # I got shifted geometric to be working
-rounded_dif2 = float(f'{dif2:.4f}') # I'm so fucking smart
-is_shifted_plus = rounded_dif1 * tuple0 + rounded_dif2 == tuple1
-is_shifted_minus = rounded_dif1 * tuple0 - rounded_dif2 == tuple1
+if num3c1 != 0 and num3c2 != 0: # This prevents dividing by 0 related problems
+    num3c3 = tuple1 / tuple0
+    num3c4 = tuple2 / tuple1
+    dif1 = num3c2 / num3c1
+    dif2 = dif1*tuple0 - tuple1
+    rounded_dif1 = float(f'{dif1:.4f}') # I got shifted geometric to be working
+    rounded_dif2 = float(f'{dif2:.4f}') # I'm so fucking smart
+    is_shifted_plus = rounded_dif1 * tuple0 + rounded_dif2 == tuple1
+    is_shifted_minus = rounded_dif1 * tuple0 - rounded_dif2 == tuple1
+
 
 
 exponent_num = tuple1
