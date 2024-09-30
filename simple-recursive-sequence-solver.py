@@ -32,9 +32,6 @@ if num3c1 != 0 and num3c2 != 0: # This prevents dividing by 0 related problems
     rounded_dif2 = float(f'{dif2:.4f}') # I'm so fucking smart
     is_shifted_plus = rounded_dif1 * tuple0 + rounded_dif2 == tuple1
     is_shifted_minus = rounded_dif1 * tuple0 - rounded_dif2 == tuple1
-
-
-
 exponent_num = tuple1
 exponent_num2 = tuple0
 power = 0
