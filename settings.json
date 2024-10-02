@@ -51,7 +51,7 @@
             "sideBar.background": "#181511",
             "sideBar.border": "#754221",
             "sideBarSectionHeader.border": "#754221",
-            "sideBarSectionHeader.background": "#402a18",
+            "sideBarSectionHeader.background": "#392015",
             "statusBar.background": "#DA6F05",
 
             "tab.activeBackground": "#181511",
@@ -63,8 +63,14 @@
             "tab.border": "#754221",
             "titleBar.activeBackground": "#0d0c09",
             "titleBar.border": "#754221",
+            "commandCenter.activeBackground": "#ff59005d",
+            "terminalCommandDecoration.defaultBackground": "#ff0000",
+            "commandCenter.background": "#181511",
+            "commandCenter.foreground": "#e57b2f",
+            "commandCenter.activeForeground": "#cccccc",
+            "quickInput.background": "#0d0c09"
+            
 
-            "commandCenter.background": "#181511"
 
         },
 
