@@ -12,7 +12,7 @@ if start_timer.lower() == 'y':
         if keyboard.is_pressed('n'):
             break
         else:
-            time_local = time.localtime() # WHO THE FUCK NEEDS ASYNCIO WHEN WE GOTS THE MATH
+            time_local = time.localtime() # WHO NEEDS ASYNCIO WHEN WE GOTS THE MATH
             time_thing = time.strftime('%H:%M:%S', time_local)
             if time_local == time_local_1:
                 continue
